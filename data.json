@@ -50,7 +50,7 @@
     },
     {
       "id": 9,
-      "english": "direction of eye focus",
+      "english": "direction of eye focus or gazing point",
       "sanskrit": "drishti",
       "category": "words"
     },
@@ -119,6 +119,198 @@
       "english": "urdhva hastasana",
       "sanskrit": "upward hand pose",
       "category": "asanas"
+    },
+    {
+      "id": 21,
+      "english": "ocean's breathe",
+      "sanskrit": "ujjayi",
+      "category": "pranayama"
+    },
+    {
+      "id": 22,
+      "english": "static or holding",
+      "sanskrit": "hatha",
+      "category": "words"
+    },
+    {
+      "id": 23,
+      "english": "flow or movement",
+      "sanskrit": "vinyasa",
+      "category": "words"
+    },
+    {
+      "id": 24,
+      "english": "root lock",
+      "sanskrit": "mulabandha",
+      "category": "bandhas"
+    },
+    {
+      "id": 25,
+      "english": "abdominal lock",
+      "sanskrit": "uddiyanabandha",
+      "category": "bandhas"
+    },
+    {
+      "id": 26,
+      "english": "chin lock",
+      "sanskrit": "jalandharabandha",
+      "category": "bandhas"
+    },
+    {
+      "id": 27,
+      "english": "great lock",
+      "sanskrit": "mahabandha",
+      "category": "bandhas"
+    },
+    {
+      "id": 28,
+      "english": "tip of the nose eye gaze",
+      "sanskrit": "nasagram",
+      "category": "drishti"
+    },
+    {
+      "id": 29,
+      "english": "eyebrow centre eye gaze",
+      "sanskrit": "ajnachakra",
+      "alternative": [
+        "bhrumadhya"
+      ],
+      "category": "drishti"
+    },
+    {
+      "id": 30,
+      "english": "belly button or navel eye gaze",
+      "sanskrit": "nabhichakra",
+      "category": "drishti"
+    },
+    {
+      "id": 31,
+      "english": "hand eye gaze",
+      "sanskrit": "hastagram",
+      "category": "drishti"
+    },
+    {
+      "id": 32,
+      "english": "toes eye gaze",
+      "sanskrit": "padyoragram",
+      "category": "drishti"
+    },
+    {
+      "id": 33,
+      "english": "far right or left eye gaze",
+      "sanskrit": "parshva",
+      "category": "drishti"
+    },
+    {
+      "id": 34,
+      "english": "thumb eye gaze",
+      "sanskrit": "angushtamadhyam",
+      "category": "drishti"
+    },
+    {
+      "id": 35,
+      "english": "upwards or sky eye gaze",
+      "sanskrit": "urdhva",
+      "alternative": [
+        "antar"
+      ],
+      "category": "drishti"
+    },
+    {
+      "id": 36,
+      "english": "extended",
+      "sanskrit": "utthita",
+      "category": "words"
+    },
+    {
+      "id": 37,
+      "english": "spread",
+      "sanskrit": "prasarita",
+      "category": "words"
+    },
+    {
+      "id": 38,
+      "english": "skull shining breathe",
+      "sanskrit": "kapalabhathi",
+      "category": "pranayama"
+    },
+    {
+      "id": 39,
+      "english": "cleansing nose using water pot",
+      "sanskrit": "jala nethi",
+      "category": "kriyas"
+    },
+    {
+      "id": 40,
+      "english": "cleansing nose using thread",
+      "sanskrit": "sutra nethi",
+      "category": "kriyas"
+    },
+    {
+      "id": 41,
+      "english": "cleansing stomach using 1L of water",
+      "sanskrit": "jala dhauti",
+      "category": "kriyas"
+    },
+    {
+      "id": 42,
+      "english": "cleansing stomach using a cheese cloth",
+      "sanskrit": "sutra dhauti",
+      "category": "kriyas"
+    },
+    {
+      "id": 43,
+      "english": "colon cleansing technique",
+      "sanskrit": "basti",
+      "category": "kriyas"
+    },
+    {
+      "id": 44,
+      "english": "eye cleansing technique by gazing",
+      "sanskrit": "trataka",
+      "category": "kriyas"
+    },
+    {
+      "id": 45,
+      "english": "abdominal cleansing technique by moving the abdominal muscles",
+      "sanskrit": "nauli",
+      "category": "kriyas"
+    },
+    {
+      "id": 46,
+      "english": "yoga of love and devotion",
+      "sanskrit": "bhakti yoga",
+      "category": "paths"
+    },
+    {
+      "id": 47,
+      "english": "yoga of love and devotion",
+      "sanskrit": "bhakti yoga",
+      "category": "paths"
+    },
+    {
+      "id": 47,
+      "english": "yoga of selfless service",
+      "sanskrit": "karma yoga",
+      "category": "paths"
+    },
+    {
+      "id": 48,
+      "english": "yoga of internal and external knowledge",
+      "sanskrit": "jnana yoga",
+      "category": "paths"
+    },
+    {
+      "id": 49,
+      "english": "8 limbs of yoga",
+      "sanskrit": "raja yoga",
+      "category": "paths"
+    },
+    {
+      "id": 50,
+      "english": "how you treat others",
+      "sanskrit": "yamas",
+      "category": "limbs"
     }
   ]
 }

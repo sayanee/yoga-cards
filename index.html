@@ -12,7 +12,19 @@
   <label for="asanas">Asanas</label>
 
   <input type="radio" id="bandhas" name="category" value="bandhas" v-model="category">
-  <label for="bandhas">Bandhas</label>
+  <label for="bandhas">3 Bandhas</label>
+
+  <input type="radio" id="drishti" name="category" value="drishti" v-model="category">
+  <label for="drishti">9 Drishti</label>
+
+  <input type="radio" id="kriyas" name="category" value="kriyas" v-model="category">
+  <label for="kriyas">Kriyas</label>
+
+  <input type="radio" id="paths" name="category" value="paths" v-model="category">
+  <label for="paths">4 Paths of Yoga</label>
+
+  <input type="radio" id="limbs" name="category" value="limbs" v-model="category">
+  <label for="limbs">8 Limbs of Yoga</label>
 
   <template v-if="order[0]">
     <div v-on:click="nextCard">
