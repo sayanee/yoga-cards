@@ -1,65 +1,33 @@
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<div id="app">
+  <template v-if="order[0]">
+    <div v-on:click="nextCard">
+      <span v-if="recall === 'english'">
+        {{ cards[order[current]].sanskrit }}
+      </span>
+      <span v-else-if="recall === 'sanskrit'">
+        {{ cards[order[current]].english }}
+      </span>
 
-<div id="app" v-on:click="nextCard">
-   {{ cards[order[current]].sanskrit }}
-   <br>
-   <span v-show="show">{{ cards[order[current]].english }}</span>
-   <br>
-   {{current+1}}/{{length}}
+      <br>
+      <span v-show="show">
+        <span v-if="recall === 'sanskrit'">
+          {{ cards[order[current]].sanskrit }}
+        </span>
+        <span v-else-if="recall === 'english'">
+          {{ cards[order[current]].english }}
+        </span>
+      </span>
+      <br>
+      {{current+1}} / {{length}}
+    </div>
+  </template>
+
+  <input type="radio" id="english" name="recall" value="english" v-model="recall">
+  <label for="english">Recall English</label>
+  <br>
+  <input type="radio" id="sanskrit" name="recall" value="sanskrit" v-model="recall">
+  <label for="sanskrit">Recall Sanskrit</label>
 </div>
 
-<script>
-Array.prototype.shuffle = function() {
-    var input = this;
-
-    for (var i = input.length-1; i >=0; i--) {
-      var randomIndex = Math.floor(Math.random()*(i+1));
-      var itemAtIndex = input[randomIndex];
-
-      input[randomIndex] = input[i];
-      input[i] = itemAtIndex;
-    }
-    return input;
-}
-
-const fillRange = function(start, end) {
-  return Array(end - start + 1).fill().map(function(item, index) {
-    return start + index
-  })
-}
-
-fetch('/data.json')
-  .then(function(response) {
-    return response.json()
-  })
-  .then(function(data) {
-    var app = new Vue({
-      el: '#app',
-      data: {
-        cards: data.data,
-        current: 0,
-        length: data.data.length,
-        show: false,
-        order: []
-      },
-      methods: {
-        shuffle: function() {
-          this.order = fillRange(0, this.length - 1).shuffle()
-          return this.order
-        },
-        nextCard: function(event) {
-          if (this.show) {
-            this.show = false
-            this.current > this.length - 2 ? this.current = 0 : this.current++
-          } else {
-            this.show = true
-          }
-
-          return
-        }
-      }
-    })
-
-    app.shuffle()
-  });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="script.js"></script>
