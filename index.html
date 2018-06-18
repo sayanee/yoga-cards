@@ -1,4 +1,19 @@
+<h1>Yoga Cards</h1>
+<h2>Flashcards to remember Yoga-related English and Sanskrit names!</h2>
+
 <div id="app">
+  <input type="radio" id="all" name="category" value="all" v-model="category">
+  <label for="all">All</label>
+
+  <input type="radio" id="words" name="category" value="words" v-model="category">
+  <label for="words">Words</label>
+
+  <input type="radio" id="asanas" name="category" value="asanas" v-model="category">
+  <label for="asanas">Asanas</label>
+
+  <input type="radio" id="bandhas" name="category" value="bandhas" v-model="category">
+  <label for="bandhas">Bandhas</label>
+
   <template v-if="order[0]">
     <div v-on:click="nextCard">
       <span v-if="recall === 'english'">

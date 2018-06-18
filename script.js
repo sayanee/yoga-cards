@@ -30,7 +30,8 @@ fetch('/data.json')
       length: data.data.length,
       show: false,
       order: [],
-      recall: "english"
+      recall: "english",
+      category: "all"
     },
     methods: {
       shuffle: function() {

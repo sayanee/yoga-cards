@@ -107,6 +107,18 @@
       "english": "water",
       "sanskrit": "jala",
       "category": "words"
+    },
+    {
+      "id": 19,
+      "english": "mountain pose",
+      "sanskrit": "tadasana",
+      "category": "asanas"
+    },
+    {
+      "id": 20,
+      "english": "urdhva hastasana",
+      "sanskrit": "upward hand pose",
+      "category": "asanas"
     }
   ]
 }
