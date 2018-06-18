@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "english": "seed",
+      "sanskrit": "bija",
+      "category": "words"
+    },
+    {
+      "id": 2,
+      "english": "binded",
+      "sanskrit": "bandha",
+      "category": "words"
+    },
+    {
+      "id": 3,
+      "english": "non-violence",
+      "sanskrit": "ahimsa",
+      "category": "words"
+    },
+    {
+      "id": 4,
+      "english": "happy",
+      "sanskrit": "ananda",
+      "category": "words"
+    },
+    {
+      "id": 5,
+      "english": "stable and comfortable pose",
+      "sanskrit": "asana",
+      "category": "words"
+    },
+    {
+      "id": 6,
+      "english": "eight",
+      "sanskrit": "ashta",
+      "category": "words"
+    },
+    {
+      "id": 7,
+      "english": "love and devotion",
+      "sanskrit": "bhakti",
+      "category": "words"
+    },
+    {
+      "id": 8,
+      "english": "meditation",
+      "sanskrit": "dhyana",
+      "category": "words"
+    },
+    {
+      "id": 9,
+      "english": "direction of eye focus",
+      "sanskrit": "drishti",
+      "category": "words"
+    },
+    {
+      "id": 10,
+      "english": "life force",
+      "sanskrit": "pranayama",
+      "category": "words"
+    },
+    {
+      "id": 11,
+      "english": "half",
+      "sanskrit": "ardha",
+      "category": "words"
+    },
+    {
+      "id": 12,
+      "english": "downward",
+      "sanskrit": "adho",
+      "category": "words"
+    },
+    {
+      "id": 13,
+      "english": "upward",
+      "sanskrit": "urdhva",
+      "category": "words"
+    },
+    {
+      "id": 14,
+      "english": "side",
+      "sanskrit": "parshva",
+      "category": "words"
+    },
+    {
+      "id": 15,
+      "english": "revolved",
+      "sanskrit": "parivrtta ",
+      "category": "words"
+    },
+    {
+      "id": 16,
+      "english": "angle",
+      "sanskrit": "kona",
+      "category": "words"
+    },
+    {
+      "id": 17,
+      "english": "supported",
+      "sanskrit": "salamba",
+      "category": "words"
+    },
+    {
+      "id": 18,
+      "english": "water",
+      "sanskrit": "jala",
+      "category": "words"
+    }
+  ]
+}
