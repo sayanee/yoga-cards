@@ -25,6 +25,7 @@ fetch('/data.json')
   var app = new Vue({
     el: '#app',
     data: {
+      allCards: data.data,
       cards: data.data,
       current: 0,
       length: data.data.length,
@@ -46,6 +47,23 @@ fetch('/data.json')
           this.show = true
         }
 
+        return
+      },
+      list: function(category) {
+        var cardList = []
+
+        this.allCards.forEach(function(eachCard) {
+          if (eachCard.category === category) {
+            cardList.push(eachCard)
+          }
+        })
+
+        this.current = 0
+        this.cards = cardList
+        this.length = this.cards.length
+        this.order = fillRange(0, this.length - 1).shuffle()
+
+        console.log(this.cards)
         return
       }
     }

@@ -311,6 +311,12 @@
       "english": "how you treat others",
       "sanskrit": "yamas",
       "category": "limbs"
+    },
+    {
+      "id": 51,
+      "english": "obversance",
+      "sanskrit": "niyamas",
+      "category": "limbs"
     }
   ]
 }

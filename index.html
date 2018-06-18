@@ -2,31 +2,16 @@
 <h2>Flashcards to remember Yoga-related English and Sanskrit names!</h2>
 
 <div id="app">
-  <input type="radio" id="all" name="category" value="all" v-model="category">
-  <label for="all">All</label>
+  <button v-on:click="list('all')">All</button>
+  <button v-on:click="list('words')">Words</button>
+  <button v-on:click="list('asanas')">Asanas</button>
+  <button v-on:click="list('bandhas')">3 Bandhas</button>
+  <button v-on:click="list('drishti')">9 Drishti</button>
+  <button v-on:click="list('kriyas')">Kriyas</button>
+  <button v-on:click="list('paths')">4 Paths of Yoga</button>
+  <button v-on:click="list('limbs')">8 Limbs of Yoga</button>
 
-  <input type="radio" id="words" name="category" value="words" v-model="category">
-  <label for="words">Words</label>
-
-  <input type="radio" id="asanas" name="category" value="asanas" v-model="category">
-  <label for="asanas">Asanas</label>
-
-  <input type="radio" id="bandhas" name="category" value="bandhas" v-model="category">
-  <label for="bandhas">3 Bandhas</label>
-
-  <input type="radio" id="drishti" name="category" value="drishti" v-model="category">
-  <label for="drishti">9 Drishti</label>
-
-  <input type="radio" id="kriyas" name="category" value="kriyas" v-model="category">
-  <label for="kriyas">Kriyas</label>
-
-  <input type="radio" id="paths" name="category" value="paths" v-model="category">
-  <label for="paths">4 Paths of Yoga</label>
-
-  <input type="radio" id="limbs" name="category" value="limbs" v-model="category">
-  <label for="limbs">8 Limbs of Yoga</label>
-
-  <template v-if="order[0]">
+  <template v-if="order[0] && cards[0].sanskrit">
     <div v-on:click="nextCard">
       <span v-if="recall === 'english'">
         {{ cards[order[current]].sanskrit }}
