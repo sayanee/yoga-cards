@@ -317,6 +317,156 @@
       "english": "obversance",
       "sanskrit": "niyamas",
       "category": "paths"
+    },
+    {
+      "id": 52,
+      "english": "standing forward fold pose",
+      "sanskrit": "uttanasana",
+      "category": "asanas"
+    },
+    {
+      "id": 53,
+      "english": "halfway forward fold pose",
+      "sanskrit": "ardha uttanasana",
+      "category": "asanas"
+    },
+    {
+      "id": 54,
+      "english": "plank pose",
+      "sanskrit": "phalankasana",
+      "category": "asanas"
+    },
+    {
+      "id": 55,
+      "english": "8 limbed pose",
+      "sanskrit": "ashtanga namaskara",
+      "category": "asanas"
+    },
+    {
+      "id": 56,
+      "english": "cobra pose",
+      "sanskrit": "bhujangasana",
+      "category": "asanas"
+    },
+    {
+      "id": 57,
+      "english": "tricep pushup pose",
+      "sanskrit": "chaturanga",
+      "category": "asanas"
+    },
+    {
+      "id": 58,
+      "english": "upward dog pose",
+      "sanskrit": "urdhva mukha shvanasana",
+      "category": "asanas"
+    },
+    {
+      "id": 59,
+      "english": "downward dog pose",
+      "sanskrit": "adho mukha shvanasana",
+      "category": "asanas"
+    },
+    {
+      "id": 60,
+      "english": "warrior pose 1",
+      "sanskrit": "virabhadrasana 1",
+      "category": "asanas"
+    },
+    {
+      "id": 61,
+      "english": "warrior pose 2",
+      "sanskrit": "virabhadrasana 2",
+      "category": "asanas"
+    },
+    {
+      "id": 62,
+      "english": "extended triangle pose",
+      "sanskrit": "utthita trikonasana",
+      "category": "asanas"
+    },
+    {
+      "id": 63,
+      "english": "extended side angle pose",
+      "sanskrit": "utthita prashvakonasana",
+      "category": "asanas"
+    },
+    {
+      "id": 64,
+      "english": "binded extended side angle pose",
+      "sanskrit": "baddha utthita prashvakonasana",
+      "category": "asanas"
+    },
+    {
+      "id": 65,
+      "english": "bird of paridise pose",
+      "sanskrit": "svarga dvidasana",
+      "category": "asanas"
+    },
+    {
+      "id": 66,
+      "english": "binded extended side angle pose",
+      "sanskrit": "baddha utthita prashvakonasana",
+      "category": "asanas"
+    },
+    {
+      "id": 67,
+      "english": "standing hand to tow forward fold pose",
+      "sanskrit": "padangusthasana",
+      "category": "asanas"
+    },
+    {
+      "id": 68,
+      "english": "upward spread one legged pose",
+      "sanskrit": "urdhva prasarita eka padasana",
+      "category": "asanas"
+    },
+    {
+      "id": 69,
+      "english": "super soldier pose",
+      "sanskrit": "super soldier pose",
+      "category": "asanas"
+    },
+    {
+      "id": 70,
+      "english": "half moon pose",
+      "sanskrit": "ardha chandrasana soldier",
+      "category": "asanas"
+    },
+    {
+      "id": 71,
+      "english": "revolved half moon pose",
+      "sanskrit": "parivrtta ardha chandrasana",
+      "category": "asanas"
+    },
+    {
+      "id": 72,
+      "english": "drummer pose",
+      "sanskrit": "drummer pose",
+      "category": "asanas"
+    },
+    {
+      "id": 73,
+      "english": "spread legged forward bend pose D",
+      "sanskrit": "prasarita padottanasana D",
+      "category": "asanas"
+    },
+    {
+      "id": 74,
+      "english": "spread legged forward bend pose C",
+      "sanskrit": "prasarita padottanasana C",
+      "category": "asanas"
+    },
+    {
+      "id": 75,
+      "english": "garland pose",
+      "sanskrit": "malasana",
+      "category": "asanas"
+    },
+    {
+      "id": 76,
+      "english": "revolved garland pose",
+      "sanskrit": "parivratta malasana",
+      "category": "asanas"
     }
   ]
 }
