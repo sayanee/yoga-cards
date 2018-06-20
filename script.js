@@ -32,7 +32,8 @@ fetch('/data.json')
       show: false,
       order: [],
       recall: "english",
-      category: "all"
+      category: "all",
+      isActive: false
     },
     methods: {
       shuffle: function() {
@@ -52,16 +53,21 @@ fetch('/data.json')
       list: function(category) {
         var cardList = []
 
-        this.allCards.forEach(function(eachCard) {
-          if (eachCard.category === category) {
-            cardList.push(eachCard)
-          }
-        })
+        if (category === "all") {
+          this.cards = this.allCards
+        } else {
+          this.allCards.forEach(function(eachCard) {
+            if (eachCard.category === category) {
+              cardList.push(eachCard)
+            }
+          })
+          this.cards = cardList
+        }
 
         this.current = 0
-        this.cards = cardList
         this.length = this.cards.length
         this.order = fillRange(0, this.length - 1).shuffle()
+        this.isActive = true
 
         console.log(this.cards)
         return

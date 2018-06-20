@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(270deg,#bbebe0,#f0f3e7,#ddf6ff);
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+a:link, a:visited {
+	color: #00bb8f;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+.card {
+  background: #fff;
+  margin: 0 auto;
+  width: 400px;
+  height: 60vh;
+  border-radius: 5px;
+  box-shadow: 3px 3px 60px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.flash {
+  background: #00bb8f;
+  display: block;
+  padding: .5em;
+  margin: 2em auto;
+  text-align: center;
+  width: 80%;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+.reveal {
+  display: block;
+  padding: .5em;
+  margin: 2em auto;
+  text-align: center;
+  width: 80%;
+	font-size: 1.2em;
+}
+
+.progress {
+  text-align: center;
+  font-size: .8em;
+  bottom: 2em;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.select {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.select-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.select-list li {
+  display: inline-block;
+  padding: .2em;
+}
+
+button {
+  background: none;
+  font-size: .8em;
+  padding: .5em 1.5em;
+  border: 1px solid #666;
+  border-radius: 3px;
+	color: #666;
+}
+
+button:hover {
+	background: #00bb8f;
+	color: #fff;
+	cursor: pointer;
+}
+
+.choose {
+	list-style-type: none;
+	padding: 0;
+	color: #666;
+	text-align: center;
+}
+
+.choose li {
+	display: inline-block;
+	width: 40%;
+	font-size: .8em;
+	color: #666;
+}
+
+.active {
+	background: #00bb8f;
+	color: #fff;
+	border: none;
+}
+
+.footer {
+	/* font-size: .75em; */
+	color: #666;
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+	.card, .select, .footer {
+		width: 90%;
+	}
+}

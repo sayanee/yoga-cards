@@ -1,45 +1,70 @@
-<h1>Yoga Cards</h1>
-<h2>Flashcards to remember Yoga-related English and Sanskrit names!</h2>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yoga Cards | Flashcards on the go to remember English and Sanskrit names!</title>
+  <meta name="description" content="Yoga Cards | Flashcards on the go to remember English and Sanskrit names!">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="select">
+      <ul class="select-list">
+        <li><button v-on:click="list('all')" v-bind:class="{ active: isActive }">All</button></li>
+        <li><button v-on:click="list('words')" v-bind:class="{ active: isActive }">Words</button></li>
+        <li><button v-on:click="list('asanas')" v-bind:class="{ active: isActive }">Asanas</button></li>
+        <li><button v-on:click="list('bandhas')" v-bind:class="{ active: isActive }">Bandhas</button></li>
+        <li><button v-on:click="list('drishti')" v-bind:class="{ active: isActive }">Drishti</button></li>
+        <li><button v-on:click="list('kriyas')" v-bind:class="{ active: isActive }">Kriyas</button></li>
+        <li><button v-on:click="list('paths')" v-bind:class="{ active: isActive }">Paths</button></li>
+      </ul>
 
-<div id="app">
-  <button v-on:click="list('all')">All</button>
-  <button v-on:click="list('words')">Words</button>
-  <button v-on:click="list('asanas')">Asanas</button>
-  <button v-on:click="list('bandhas')">3 Bandhas</button>
-  <button v-on:click="list('drishti')">9 Drishti</button>
-  <button v-on:click="list('kriyas')">Kriyas</button>
-  <button v-on:click="list('paths')">4 Paths of Yoga</button>
-  <button v-on:click="list('limbs')">8 Limbs of Yoga</button>
+      <ul class="choose">
+        <li>
+          <input type="radio" id="english" name="recall" value="english" v-model="recall">
+          <label for="english" class="choose">Sanskrit → English</label>
+        </li>
+        <li>
+          <input type="radio" id="sanskrit" name="recall" value="sanskrit" v-model="recall">
+          <label for="sanskrit" class="choose">English → Sanskrit</label>
+        </li>
+      </ul>
+    </div>
 
-  <template v-if="order[0] && cards[0].sanskrit">
-    <div v-on:click="nextCard">
-      <span v-if="recall === 'english'">
-        {{ cards[order[current]].sanskrit }}
-      </span>
-      <span v-else-if="recall === 'sanskrit'">
-        {{ cards[order[current]].english }}
-      </span>
-
-      <br>
-      <span v-show="show">
-        <span v-if="recall === 'sanskrit'">
+    <div v-if="order[0] && cards[0].sanskrit">
+      <div v-on:click="nextCard" class="card">
+        <span v-if="recall === 'english'" class="flash">
           {{ cards[order[current]].sanskrit }}
         </span>
-        <span v-else-if="recall === 'english'">
+        <span v-else-if="recall === 'sanskrit'" class="flash">
           {{ cards[order[current]].english }}
         </span>
-      </span>
-      <br>
-      {{current+1}} / {{length}}
+
+        <span v-show="show">
+          <span v-if="recall === 'sanskrit'" class="reveal">
+            {{ cards[order[current]].sanskrit }}
+          </span>
+          <span v-else-if="recall === 'english'" class="reveal">
+            {{ cards[order[current]].english }}
+          </span>
+        </span>
+
+        <p class="progress">{{current+1}} / {{length}} cards</p>
+      </div>
     </div>
-  </template>
+  </div>
 
-  <input type="radio" id="english" name="recall" value="english" v-model="recall">
-  <label for="english">Recall English</label>
-  <br>
-  <input type="radio" id="sanskrit" name="recall" value="sanskrit" v-model="recall">
-  <label for="sanskrit">Recall Sanskrit</label>
-</div>
+  <div class="footer">
+    <p><strong>Yoga Cards</strong><br>Flashcards on-the-go to remember English & Sanskrit names!</p>
+    <p>
+      Source code for this website is <a href="https://github.com/sayanee/yoga-cards">open sourced</a>.
+      <br>
+      Please email <a href="mailto:sayanee@gmail.com">Sayanee</a> for any feedback, questions or fixes.
+    </p>
+  </div>
 
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="script.js"></script>
+</body>

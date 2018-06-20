@@ -116,8 +116,8 @@
     },
     {
       "id": 20,
-      "english": "urdhva hastasana",
-      "sanskrit": "upward hand pose",
+      "english": "upward hand pose",
+      "sanskrit": "urdhva hastasana",
       "category": "asanas"
     },
     {
@@ -310,13 +310,13 @@
       "id": 50,
       "english": "how you treat others",
       "sanskrit": "yamas",
-      "category": "limbs"
+      "category": "paths"
     },
     {
       "id": 51,
       "english": "obversance",
       "sanskrit": "niyamas",
-      "category": "limbs"
+      "category": "paths"
     }
   ]
 }
