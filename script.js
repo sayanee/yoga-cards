@@ -69,9 +69,10 @@ fetch('data.json')
         this.order = fillRange(0, this.length - 1).shuffle()
         this.isActive = true
 
-        console.log(this.cards)
         return
       }
     }
-  }).shuffle()
+  })
+
+  app.shuffle()
 });
