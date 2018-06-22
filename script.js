@@ -33,7 +33,8 @@ fetch('data.json')
       order: [],
       recall: "english",
       category: "all",
-      isActive: false
+      isActive: false,
+      categories: data.categories
     },
     methods: {
       shuffle: function() {

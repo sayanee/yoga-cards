@@ -1,4 +1,13 @@
 {
+  "categories": [
+    "all",
+    "words",
+    "asanas",
+    "bandhas",
+    "drishti",
+    "kriyas",
+    "paths"
+  ],
   "data": [
     {
       "id": 1,
