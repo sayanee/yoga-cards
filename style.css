@@ -110,9 +110,12 @@ button:hover {
 }
 
 .active {
-	background: #00bb8f;
-	color: #fff;
 	border: none;
+}
+
+.active button {
+	color: #fff;
+	background: #00bb8f;
 }
 
 .footer {

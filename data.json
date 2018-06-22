@@ -1,12 +1,12 @@
 {
   "categories": [
-    "all",
-    "words",
-    "asanas",
-    "bandhas",
-    "drishti",
-    "kriyas",
-    "paths"
+    {"id": "all"},
+    {"id": "words"},
+    {"id": "asanas"},
+    {"id": "bandhas"},
+    {"id": "drishti"},
+    {"id": "kriyas"},
+    {"id": "paths"}
   ],
   "data": [
     {

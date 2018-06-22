@@ -12,13 +12,9 @@
   <div id="app">
     <div class="select">
       <ul class="select-list">
-        <li><button v-on:click="list('all')" v-bind:class="{ active: isActive }">All</button></li>
-        <li><button v-on:click="list('words')" v-bind:class="{ active: isActive }">Words</button></li>
-        <li><button v-on:click="list('asanas')" v-bind:class="{ active: isActive }">Asanas</button></li>
-        <li><button v-on:click="list('bandhas')" v-bind:class="{ active: isActive }">Bandhas</button></li>
-        <li><button v-on:click="list('drishti')" v-bind:class="{ active: isActive }">Drishti</button></li>
-        <li><button v-on:click="list('kriyas')" v-bind:class="{ active: isActive }">Kriyas</button></li>
-        <li><button v-on:click="list('paths')" v-bind:class="{ active: isActive }">Paths</button></li>
+        <li v-for="category in categories" :class="{active:category.id == isActive}" @click="isActive = category.id" >
+          <button v-on:click="list(category.id)">{{category.id}}</button>
+        </li>
       </ul>
 
       <ul class="choose">
