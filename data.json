@@ -293,8 +293,8 @@
     },
     {
       "id": 47,
-      "english": "yoga of love and devotion",
-      "sanskrit": "bhakti yoga",
+      "english": "withdrwal of senses",
+      "sanskrit": "pratyahara",
       "category": "paths"
     },
     {
@@ -475,6 +475,168 @@
       "id": 76,
       "english": "revolved garland pose",
       "sanskrit": "parivratta malasana",
+      "category": "asanas"
+    },
+    {
+      "id": 77,
+      "english": "seated forward bend pose",
+      "sanskrit": "paschimottanasana",
+      "category": "asanas"
+    },
+    {
+      "id": 78,
+      "english": "boat pose",
+      "sanskrit": "navasana",
+      "category": "asanas"
+    },
+    {
+      "id": 79,
+      "english": "pose dedicated to sage marichi",
+      "sanskrit": "marichyasana c",
+      "category": "asanas"
+    },
+    {
+      "id": 80,
+      "english": "bharadvaja's twist 1",
+      "sanskrit": "bharadvajasana 1",
+      "category": "asanas"
+    },
+    {
+      "id": 81,
+      "english": "revolved sundial pose",
+      "sanskrit": "parivrtta surya yantrasana",
+      "category": "asanas"
+    },
+    {
+      "id": 82,
+      "english": "eight-angle pose",
+      "sanskrit": "astavakrasana",
+      "category": "asanas"
+    },
+    {
+      "id": 83,
+      "english": "dolphin pose",
+      "sanskrit": "ardha pincha mayurasana",
+      "category": "asanas"
+    },
+    {
+      "id": 84,
+      "english": "forearm stand pose",
+      "sanskrit": "pincha mayurasana",
+      "category": "asanas"
+    },
+    {
+      "id": 85,
+      "english": "baby crow pose",
+      "sanskrit": "bala bakasana",
+      "category": "asanas"
+    },
+    {
+      "id": 86,
+      "english": "supported cobra pose / sphinx pose",
+      "sanskrit": "salamba bhujangasana",
+      "category": "asanas"
+    },
+    {
+      "id": 87,
+      "english": "bow pose",
+      "sanskrit": "dhanurasana",
+      "category": "asanas"
+    },
+    {
+      "id": 88,
+      "english": "cat pose",
+      "sanskrit": "marjaryasana",
+      "category": "asanas"
+    },
+    {
+      "id": 89,
+      "english": "cow pose",
+      "sanskrit": "bitilasana",
+      "category": "asanas"
+    },
+    {
+      "id": 90,
+      "english": "baby pose",
+      "sanskrit": "balasana",
+      "category": "asanas"
+    },
+    {
+      "id": 91,
+      "english": "bridge pose",
+      "sanskrit": "setu bandha sarvangasana",
+      "category": "asanas"
+    },
+    {
+      "id": 92,
+      "english": "wheel pose",
+      "sanskrit": "urdhva dhanurasana / chakrasana",
+      "category": "asanas"
+    },
+    {
+      "id": 93,
+      "english": "supine angle pose",
+      "sanskrit": "supta konasana",
+      "category": "asanas"
+    },
+    {
+      "id": 94,
+      "english": "half side supine angle pose",
+      "sanskrit": "ardha bheka parshva sarvangasana",
+      "category": "asanas"
+    },
+    {
+      "id": 95,
+      "english": "wind releasing pose",
+      "sanskrit": "pavanamuktasana",
+      "category": "asanas"
+    },
+    {
+      "id": 96,
+      "english": "supported shoulder stand pose",
+      "sanskrit": "salamba sarvangasana",
+      "category": "asanas"
+    },
+    {
+      "id": 97,
+      "english": "plough pose",
+      "sanskrit": "halasana",
+      "category": "asanas"
+    },
+    {
+      "id": 98,
+      "english": "fish pose",
+      "sanskrit": "matsyasana",
+      "category": "asanas"
+    },
+    {
+      "id": 99,
+      "english": "supported head stand pose",
+      "sanskrit": "salamba sirsasana",
+      "category": "asanas"
+    },
+    {
+      "id": 100,
+      "english": "corpose pose",
+      "sanskrit": "savasana",
+      "category": "asanas"
+    },
+    {
+      "id": 101,
+      "english": "downward facing tree pose",
+      "sanskrit": "adho mukha vrksasana",
+      "category": "asanas"
+    },
+    {
+      "id": 102,
+      "english": "firefly pose",
+      "sanskrit": "tittibasana",
+      "category": "asanas"
+    },
+    {
+      "id": 103,
+      "english": "crow pose",
+      "sanskrit": "bakasana",
       "category": "asanas"
     }
   ]
