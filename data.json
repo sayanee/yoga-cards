@@ -6,7 +6,11 @@
     {"id": "bandhas"},
     {"id": "drishti"},
     {"id": "kriyas"},
-    {"id": "paths"}
+    {"id": "paths"},
+    {"id": "pranayama"},
+    {"id": "chakras"},
+    {"id": "limbs"},
+    {"id": "doshas"}
   ],
   "data": [
     {
