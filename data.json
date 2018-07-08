@@ -14,9 +14,129 @@
   ],
   "data": [
     {
-      "english": "seed",
-      "sanskrit": "bija",
-      "category": "words"
+      "english": "air : elements : air, space",
+      "sanskrit": "vata",
+      "category": "doshas"
+    },
+    {
+      "english": "bile - elements : water, fire",
+      "sanskrit": "pitta",
+      "category": "doshas"
+    },
+    {
+      "english": "cough - elements : water, earth",
+      "sanskrit": "kafa",
+      "category": "doshas"
+    },
+    {
+      "english": "seed chant",
+      "sanskrit": "bija mantra",
+      "category": "chakras"
+    },
+    {
+      "english": "thousand-petaled @ crown",
+      "sanskrit": "sahasrara",
+      "category": "chakras"
+    },
+    {
+      "english": "thousand-petaled @ crown",
+      "sanskrit": "sahasrara",
+      "category": "chakras"
+    },
+    {
+      "english": "perception chakra @ third eye",
+      "sanskrit": "ajna",
+      "category": "chakras"
+    },
+    {
+      "english": "especially pure chakra @ throat",
+      "sanskrit": "vishudha",
+      "category": "chakras"
+    },
+    {
+      "english": "unbeaten chakra @ heart",
+      "sanskrit": "anahatha",
+      "category": "chakras"
+    },
+    {
+      "english": "jewel city chakra @ two fingers below rib cage",
+      "sanskrit": "manipura",
+      "category": "chakras"
+    },
+    {
+      "english": "one's own base chakra @ two fingers below belly button",
+      "sanskrit": "swadhisthana",
+      "category": "chakras"
+    },
+    {
+      "english": "root chakra @ the tail bone area",
+      "sanskrit": "muladhara",
+      "category": "chakras"
+    },
+    {
+      "english": "skull shining breath",
+      "sanskrit": "kalapbhati",
+      "category": "kriyas"
+    },
+    {
+      "english": "cleansing nose using water pot",
+      "sanskrit": "jala neti",
+      "category": "kriyas"
+    },
+    {
+      "english": "cleansing nose using thread",
+      "sanskrit": "sutra neti",
+      "category": "kriyas"
+    },
+    {
+      "english": "cleansing stomach using 1L of water",
+      "sanskrit": "jala dhauti",
+      "category": "kriyas"
+    },
+    {
+      "english": "cleansing stomach using a cheese cloth",
+      "sanskrit": "sutra dhauti",
+      "category": "kriyas"
+    },
+    {
+      "english": "colon cleansing technique or enema",
+      "sanskrit": "basti",
+      "category": "kriyas"
+    },
+    {
+      "english": "eye cleansing technique by gazing",
+      "sanskrit": "trataka",
+      "category": "kriyas"
+    },
+    {
+      "english": "abdominal cleansing technique by moving the abdominal muscles",
+      "sanskrit": "nauli",
+      "category": "kriyas"
+    },
+    {
+      "english": "bumblebee breath",
+      "sanskrit": "bhramari",
+      "category": "pranayama"
+    },
+    {
+      "english": "bellow breath",
+      "sanskrit": "bhastrika",
+      "category": "pranayama"
+    },
+    {
+      "english": "alternate nostril breathing",
+      "sanskrit": "nadi shodhana",
+      "category": "pranayama"
+    },
+    {
+      "english": "skull shining breath",
+      "sanskrit": "kalapbhati",
+      "category": "pranayama"
+    },
+    {
+      "english": "ocean's breath",
+      "sanskrit": "ujjayi",
+      "category": "pranayama"
     },
     {
       "english": "binded",
@@ -24,43 +144,8 @@
       "category": "words"
     },
     {
-      "english": "non-violence",
-      "sanskrit": "ahimsa",
-      "category": "words"
-    },
-    {
-      "english": "happy",
-      "sanskrit": "ananda",
-      "category": "words"
-    },
-    {
-      "english": "stable and comfortable pose",
-      "sanskrit": "asana",
-      "category": "words"
-    },
-    {
       "english": "eight",
       "sanskrit": "ashta",
-      "category": "words"
-    },
-    {
-      "english": "love and devotion",
-      "sanskrit": "bhakti",
-      "category": "words"
-    },
-    {
-      "english": "meditation",
-      "sanskrit": "dhyana",
-      "category": "words"
-    },
-    {
-      "english": "direction of eye focus or gazing point",
-      "sanskrit": "drishti",
-      "category": "words"
-    },
-    {
-      "english": "life force",
-      "sanskrit": "pranayama",
       "category": "words"
     },
     {
@@ -99,24 +184,14 @@
       "category": "words"
     },
     {
-      "english": "water",
-      "sanskrit": "jala",
-      "category": "words"
-    },
-    {
       "english": "mountain pose",
       "sanskrit": "tadasana",
       "category": "asanas"
     },
     {
       "english": "upward hand pose",
-      "sanskrit": "urdhva hastasana",
+      "sanskrit": "urdhva hastasana / urdhva vrikshasana",
       "category": "asanas"
-    },
-    {
-      "english": "ocean's breathe",
-      "sanskrit": "ujjayi",
-      "category": "pranayama"
     },
     {
       "english": "static or holding",
@@ -155,10 +230,7 @@
     },
     {
       "english": "eyebrow centre eye gaze",
-      "sanskrit": "ajnachakra",
-      "alternative": [
-        "bhrumadhya"
-      ],
+      "sanskrit": "ajnachakra / bhrumadhya",
       "category": "drishti"
     },
     {
@@ -188,10 +260,7 @@
     },
     {
       "english": "upwards or sky eye gaze",
-      "sanskrit": "urdhva",
-      "alternative": [
-        "antar"
-      ],
+      "sanskrit": "urdhva / antar",
       "category": "drishti"
     },
     {
@@ -205,53 +274,8 @@
       "category": "words"
     },
     {
-      "english": "skull shining breathe",
-      "sanskrit": "kapalabhathi",
-      "category": "pranayama"
-    },
-    {
-      "english": "cleansing nose using water pot",
-      "sanskrit": "jala nethi",
-      "category": "kriyas"
-    },
-    {
-      "english": "cleansing nose using thread",
-      "sanskrit": "sutra nethi",
-      "category": "kriyas"
-    },
-    {
-      "english": "cleansing stomach using 1L of water",
-      "sanskrit": "jala dhauti",
-      "category": "kriyas"
-    },
-    {
-      "english": "cleansing stomach using a cheese cloth",
-      "sanskrit": "sutra dhauti",
-      "category": "kriyas"
-    },
-    {
-      "english": "colon cleansing technique",
-      "sanskrit": "basti",
-      "category": "kriyas"
-    },
-    {
-      "english": "eye cleansing technique by gazing",
-      "sanskrit": "trataka",
-      "category": "kriyas"
-    },
-    {
-      "english": "abdominal cleansing technique by moving the abdominal muscles",
-      "sanskrit": "nauli",
-      "category": "kriyas"
-    },
-    {
       "english": "yoga of love and devotion",
       "sanskrit": "bhakti yoga",
-      "category": "paths"
-    },
-    {
-      "english": "withdrwal of senses",
-      "sanskrit": "pratyahara",
       "category": "paths"
     },
     {
@@ -261,7 +285,7 @@
     },
     {
       "english": "yoga of internal and external knowledge",
-      "sanskrit": "jnana yoga",
+      "sanskrit": "gyana yoga",
       "category": "paths"
     },
     {
@@ -270,14 +294,94 @@
       "category": "paths"
     },
     {
-      "english": "how you treat others",
+      "english": "1st limb - how you treat others",
       "sanskrit": "yamas",
-      "category": "paths"
+      "category": "limbs"
     },
     {
-      "english": "obversance",
+      "english": "2nd limb - observance",
       "sanskrit": "niyamas",
-      "category": "paths"
+      "category": "limbs"
+    },
+    {
+      "english": "3rd limb - stable and comfortable pose",
+      "sanskrit": "asana",
+      "category": "limbs"
+    },
+    {
+      "english": "4th limb - breathing or expansion of life force",
+      "sanskrit": "pranayama",
+      "category": "words"
+    },
+    {
+      "english": "5th limb - withdrwal of senses",
+      "sanskrit": "pratyahara",
+      "category": "limbs"
+    },
+    {
+      "english": "6th limb - tools for meditation",
+      "sanskrit": "dharana",
+      "category": "limbs"
+    },
+    {
+      "english": "7th limb - meditation",
+      "sanskrit": "dhayana",
+      "category": "limbs"
+    },
+    {
+      "english": "8th limb - enlightenment",
+      "sanskrit": "samadhi",
+      "category": "limbs"
+    },
+    {
+      "english": "yamas - non-violence",
+      "sanskrit": "ahimsa",
+      "category": "limbs"
+    },
+    {
+      "english": "yamas - truth",
+      "sanskrit": "satya",
+      "category": "limbs"
+    },
+    {
+      "english": "yamas - non-stealing",
+      "sanskrit": "asteya",
+      "category": "limbs"
+    },
+    {
+      "english": "yamas - bachelor student stage of life",
+      "sanskrit": "brahmacharya",
+      "category": "limbs"
+    },
+    {
+      "english": "yamas - non-hoarding of thoughts or physical things",
+      "sanskrit": "aparigraha",
+      "category": "limbs"
+    },
+    {
+      "english": "niyamas - cleanliness",
+      "sanskrit": "saucha",
+      "category": "limbs"
+    },
+    {
+      "english": "niyamas - contentment",
+      "sanskrit": "satosha",
+      "category": "limbs"
+    },
+    {
+      "english": "niyamas - zeal / burning of impurities",
+      "sanskrit": "tapas",
+      "category": "limbs"
+    },
+    {
+      "english": "niyamas - self study",
+      "sanskrit": "swadhyaya",
+      "category": "limbs"
+    },
+    {
+      "english": "niyamas - surrender",
+      "sanskrit": "isvara pranidhana",
+      "category": "limbs"
     },
     {
       "english": "standing forward fold pose",
@@ -350,11 +454,6 @@
       "category": "asanas"
     },
     {
-      "english": "binded extended side angle pose",
-      "sanskrit": "baddha utthita parshvakonasana",
-      "category": "asanas"
-    },
-    {
       "english": "standing hand to tow forward fold pose",
       "sanskrit": "padangusthasana",
       "category": "asanas"
@@ -371,7 +470,7 @@
     },
     {
       "english": "half moon pose",
-      "sanskrit": "ardha chandrasana soldier",
+      "sanskrit": "ardha chandrasana",
       "category": "asanas"
     },
     {
@@ -420,12 +519,12 @@
       "category": "asanas"
     },
     {
-      "english": "bharadvaja's twist 1",
+      "english": "bharadvaj's twist 1",
       "sanskrit": "bharadvajasana 1",
       "category": "asanas"
     },
     {
-      "english": "revolved sundial pose",
+      "english": "revolved sundial/compass pose",
       "sanskrit": "parivrtta surya yantrasana",
       "category": "asanas"
     },
@@ -435,12 +534,12 @@
       "category": "asanas"
     },
     {
-      "english": "dolphin pose",
+      "english": "half feather peacock pose / one legged dolphin pose",
       "sanskrit": "ardha pincha mayurasana",
       "category": "asanas"
     },
     {
-      "english": "forearm stand pose",
+      "english": "feather peacock pose / forearm stand pose",
       "sanskrit": "pincha mayurasana",
       "category": "asanas"
     },
